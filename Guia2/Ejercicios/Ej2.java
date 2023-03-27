@@ -1,5 +1,5 @@
 
-package Guia2.Ejercicios;
+package GuiaJava.Guia2.Ejercicios;
 
 
 import java.util.Scanner;

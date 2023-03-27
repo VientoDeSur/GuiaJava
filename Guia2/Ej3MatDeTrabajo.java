@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Guia2;
+package GuiaJava.Guia2;
 
 /**
  *

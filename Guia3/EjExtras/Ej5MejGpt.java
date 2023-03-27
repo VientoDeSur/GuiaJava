@@ -1,7 +1,7 @@
 
-package Guia3.EjExtras;
+package GuiaJava.Guia3.EjExtras;
 
-import Ej5.*;
+
 import java.util.Scanner;
 public class Ej5MejGpt {
     public static void main(String[] args) {

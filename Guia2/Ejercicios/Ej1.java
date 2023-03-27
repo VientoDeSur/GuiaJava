@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package Guia2.Ejercicios;
+package GuiaJava.Guia2.Ejercicios;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Guia3;
+package GuiaJava.Guia3;
 
 public class EjemGuia3_for {
 public static void main(String[] args) {

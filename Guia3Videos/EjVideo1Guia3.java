@@ -1,4 +1,4 @@
-package Guia3Videos;
+package GuiaJava.Guia3Videos;
 
 import java.util.Scanner;
 

@@ -1,4 +1,4 @@
-package Guia4.Ejercicios;
+package GuiaJava.Guia4.Ejercicios;
 
 import java.util.Scanner;
 

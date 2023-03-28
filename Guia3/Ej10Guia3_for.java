@@ -10,10 +10,11 @@ Por ejemplo:
 3 ***
 11 ***********
 2 **
-*/
+ */
 public class Ej10Guia3_for {
+
     public static void main(String[] args) {
-        
+
         Scanner leer = new Scanner(System.in);
         for (int i = 0; i < 4; i++) {
             System.out.println("Ingrese un numero: ");

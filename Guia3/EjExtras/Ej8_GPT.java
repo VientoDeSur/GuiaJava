@@ -8,12 +8,13 @@ package GuiaJava.Guia3.EjExtras;
 import java.util.Scanner;
 
 public class Ej8_GPT {
-     public static void main(String[] args) {
-        
+
+    public static void main(String[] args) {
+
         Scanner leer = new Scanner(System.in);
-        
+
         int num, contPar = 0, contImp = 0, cont = 0;
-        
+
         do {
             System.out.println("Ingrese un numero");
             num = leer.nextInt();
@@ -29,7 +30,7 @@ public class Ej8_GPT {
                 cont++;
             }
         } while (true);
-        
+
         System.out.println("La cantidad de numeros fueron " + cont);
         System.out.println("La cantidad de numeros pares fueron " + contPar);
         System.out.println("La cantidad de numeros impares fueron " + contImp);

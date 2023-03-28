@@ -11,8 +11,9 @@ import java.util.Scanner;
 El programa deberá después mostrar el resultado de la suma
  */
 public class Ej1 {
+
     public static void main(String[] args) {
-    
+
         Scanner leer = new Scanner(System.in);
         int num1;
         int num2;
@@ -20,8 +21,8 @@ public class Ej1 {
         num1 = leer.nextInt();
         System.out.println("Ingrese el segundo numero: ");
         num2 = leer.nextInt();
-        System.out.println("La suma de los dos numeros es de: " + (num1+num2));
-        
+        System.out.println("La suma de los dos numeros es de: " + (num1 + num2));
+
     }
-    
+
 }

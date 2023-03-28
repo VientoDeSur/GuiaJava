@@ -7,16 +7,18 @@ Diseñe una función que pida el nombre y la edad de N personas e imprima los da
 de las personas ingresadas por teclado e indique si son mayores o menores de edad. 
 Después de cada persona, el programa debe preguntarle al usuario si quiere seguir 
 mostrando personas y frenar cuando el usuario ingrese la palabra “No”.
-*/
+ */
 public class Ej2 {
+
     public static void main(String[] args) {
-        
+
         Scanner leer = new Scanner(System.in);
         String resultado;
         resultado = func();
-        
+
     }
-    public static String func(){
+
+    public static String func() {
         Scanner leer = new Scanner(System.in);
         String nombre, edad, ciclo;
         int conversion;
@@ -26,7 +28,7 @@ public class Ej2 {
             System.out.println("Ingrese Edad: ");
             edad = leer.nextLine();
             conversion = Integer.parseInt(edad);
-            System.out.println("El nombre es "+nombre+" y la edad es de "+edad);
+            System.out.println("El nombre es " + nombre + " y la edad es de " + edad);
             if (conversion > 18) {
                 System.out.println("Es mayor de edad.");
             } else {
@@ -35,10 +37,7 @@ public class Ej2 {
             System.out.println("Escriba no si quiere salir (NO): ");
             ciclo = leer.nextLine();
         } while (!ciclo.equalsIgnoreCase("no"));
-        
-        
-        
+
         return nombre + edad;
     }
 }
-

@@ -12,20 +12,21 @@ la secuencia especial “&&&&&” marca el final de los envíos (llamémosla FDE
 y toda secuencia distinta de FDE, que no respete el formato se considera incorrecta.
 Al finalizar el proceso, se imprime un informe indicando la cantidad de lecturas correctas e incorrectas recibidas. 
 Para resolver el ejercicio deberá investigar cómo se utilizan las siguientes funciones de Java Substring(), Length(), equals().
-*/
+ */
 public class Ej7 {
+
     public static void main(String[] args) {
-        
+
         Scanner leer = new Scanner(System.in);
         int cor = 0, inc = 0, lon = 0;
         String frase = "";
-        
+
         do {
-          
+
             if (lon == 5) {
-                if ((frase.substring(0,1).equalsIgnoreCase("x")) && (frase.substring(4,5).equalsIgnoreCase("o" ))){
+                if ((frase.substring(0, 1).equalsIgnoreCase("x")) && (frase.substring(4, 5).equalsIgnoreCase("o"))) {
                     cor += 1;
-                }else {
+                } else {
                     inc += 1;
                 }
             }
@@ -37,7 +38,7 @@ public class Ej7 {
                 System.out.println("La longitud de la frase o palabra es incorrecta.");
             }
         } while (!"&&&&&".equalsIgnoreCase(frase));
-        
+
         System.out.println("Las frases o palabras correctas fueron: " + cor + " veces.");
         System.out.println("Las frases o palabras incorrectas fueron: " + inc + " veces.");
     }

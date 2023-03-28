@@ -12,6 +12,7 @@ package GuiaJava.GPT;
 import java.util.Scanner;
 
 public class JuegoRobots {
+
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         int[][] tablero = new int[10][10];
@@ -102,6 +103,6 @@ public class JuegoRobots {
             System.out.println("¡Felicidades! Recogiste todas las gemas.");
         }
         System.out.println("Gemas recogidas: " + gemasRecogidas);
-System.out.println("¡Gracias por jugar!");
-}
+        System.out.println("¡Gracias por jugar!");
+    }
 }

@@ -63,7 +63,8 @@ public class JuegoDeRobots {
                         System.out.println("Movimiento inválido. Intenta de nuevo.");
                         break;
                 }
-            }   System.out.println("¡Felicidades! Llegaste a la posición (" + objetivoX + ", " + objetivoY + ") en " + movimientos + " movimientos.");
+            }
+            System.out.println("¡Felicidades! Llegaste a la posición (" + objetivoX + ", " + objetivoY + ") en " + movimientos + " movimientos.");
         }
     }
 

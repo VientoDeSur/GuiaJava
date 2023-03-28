@@ -3,18 +3,12 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package GuiaJava.Guia2;
+package GuiaJava.POO;
 
 /**
  *
  * @author Raul Borrell
  */
-public class Deteccion1 {
+public class Ej1 {
 
-    public static void main(String[] args) {
-        String nombre;
-        boolean bandera;
-        char letra;
-
-    }
 }

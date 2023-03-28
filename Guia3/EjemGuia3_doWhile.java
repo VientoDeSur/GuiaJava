@@ -4,20 +4,21 @@ import java.util.Scanner;
 
 /*
 
-*/
+ */
 public class EjemGuia3_doWhile {
+
     public static void main(String[] args) {
 
-    	Scanner leer = new Scanner(System.in);
+        Scanner leer = new Scanner(System.in);
 
-    	String respuesta;
+        String respuesta;
 
-    	do {
+        do {
 
-    	System.out.println("Desea continuar?");
-    	respuesta = leer.nextLine();
+            System.out.println("Desea continuar?");
+            respuesta = leer.nextLine();
 
-    	} while (respuesta.equalsIgnoreCase("S"));
-}
+        } while (respuesta.equalsIgnoreCase("S"));
+    }
 
 }

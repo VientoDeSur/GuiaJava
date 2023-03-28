@@ -4,13 +4,14 @@
  * and open the template in the editor.
  */
 package GuiaJava.Guia3.Ejercicios;
- import java.util.Scanner;
+
+import java.util.Scanner;
+
 /**
  *
  * @author Raul Borrell
  */
 public class Ej6GPT {
- 
 
     public static void main(String[] args) {
         Scanner leer = new Scanner(System.in);
@@ -18,10 +19,10 @@ public class Ej6GPT {
         String letra = "";
         System.out.println("Ingrese el primer numero: ");
         num1 = leer.nextInt();
-        
+
         System.out.println("Ingrese el segundo numero: ");
         num2 = leer.nextInt();
-        
+
         do {
             System.out.println("MENU");
             System.out.println("1. Sumar");
@@ -31,26 +32,25 @@ public class Ej6GPT {
             System.out.println("5. Salir");
             System.out.println("Elija la opcion: ");
             opcion = leer.nextInt();
-            switch(opcion){
+            switch (opcion) {
                 case 1:
-                    System.out.println("La suma de los 2 numeros es de: " + (num1+num2));
+                    System.out.println("La suma de los 2 numeros es de: " + (num1 + num2));
                     break;
                 case 2:
-                    System.out.println("La resta de los 2 numeros es de: " + (num1-num2));
+                    System.out.println("La resta de los 2 numeros es de: " + (num1 - num2));
                     break;
                 case 3:
-                    System.out.println("La multiplicacion de los 2 numeros es de: " + (num1*num2));
+                    System.out.println("La multiplicacion de los 2 numeros es de: " + (num1 * num2));
                     break;
                 case 4:
-                    System.out.println("La division de los 2 numeros es de: " + (num1/num2));
+                    System.out.println("La division de los 2 numeros es de: " + (num1 / num2));
                     break;
                 case 5:
                     System.out.println("¿Está seguro que desea salir del programa (S/N)?");
                     letra = leer.next();
                     if (letra.equalsIgnoreCase("s")) {
                         break;
-                    }
-                    else if (letra.equalsIgnoreCase("n")) {
+                    } else if (letra.equalsIgnoreCase("n")) {
                         continue;
                     }
                 default:
@@ -60,5 +60,3 @@ public class Ej6GPT {
         } while (!"s".equalsIgnoreCase(letra));
     }
 }
-    
-

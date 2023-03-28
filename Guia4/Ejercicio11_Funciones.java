@@ -17,47 +17,47 @@ la codificación correspondiente. Utilice la estructura “según” para la tra
 Por ejemplo, si el usuario ingresa:     Ayer, lunes, salimos a las once y 10.
 La salida del programa debería ser:  @y#r, l*n#s, s@l$m%s @ l@s %nc# y 10.
 
-*/
+ */
 public class Ejercicio11_Funciones {
+
     public static void main(String[] args) {
-        
+
         Scanner leer = new Scanner(System.in);
         String frase, fraseCambiada;
-        
+
         System.out.println("Ingrese una frase: ");
         frase = leer.nextLine().toLowerCase();
         System.out.println("La frase cambiada es: ");
         fraseCambiada = cambio(frase);
         System.out.println(fraseCambiada);
-        
-    }
-    
-  public static String cambio(String frase){
-      String nuevaFrase = "";
-      for (int i = 0; i < frase.length(); i++) {
-          char letra = frase.charAt(i);
-          switch (letra) {
-                  case 'a':
-                  nuevaFrase += "@";
-                  break;
-                  case 'e':
-                  nuevaFrase += "#";
-                  break;
-                  case 'i':
-                  nuevaFrase += "$";
-                  break;
-                  case 'o':
-                  nuevaFrase += "%";
-                  break;
-                  case 'u':
-                  nuevaFrase += "*";
-                  break;
-                  default:
-                  nuevaFrase += letra;
-          }
-        }
-    
-      return nuevaFrase;
-  }
-}
 
+    }
+
+    public static String cambio(String frase) {
+        String nuevaFrase = "";
+        for (int i = 0; i < frase.length(); i++) {
+            char letra = frase.charAt(i);
+            switch (letra) {
+                case 'a':
+                    nuevaFrase += "@";
+                    break;
+                case 'e':
+                    nuevaFrase += "#";
+                    break;
+                case 'i':
+                    nuevaFrase += "$";
+                    break;
+                case 'o':
+                    nuevaFrase += "%";
+                    break;
+                case 'u':
+                    nuevaFrase += "*";
+                    break;
+                default:
+                    nuevaFrase += letra;
+            }
+        }
+
+        return nuevaFrase;
+    }
+}

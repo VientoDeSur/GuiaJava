@@ -3,27 +3,28 @@ package GuiaJava.Guia3;
 import java.util.Scanner;
 
 public class EjemGuia3_switch {
- public static void main(String[] args) {
 
-    	Scanner leer = new Scanner(System.in);
+    public static void main(String[] args) {
 
-    	int opcion;
+        Scanner leer = new Scanner(System.in);
 
-    	System.out.println("Ingrese una opción");
+        int opcion;
 
-    	opcion = leer.nextInt();
+        System.out.println("Ingrese una opción");
 
-    	switch (opcion) {
-        	case 1:
-           System.out.println("Esta línea de código se ejecuta si opcion = 1");
-           break;
+        opcion = leer.nextInt();
 
-        	case 2:
-           System.out.println("Esta línea de código se ejecuta si opcion = 2");
-            break;
+        switch (opcion) {
+            case 1:
+                System.out.println("Esta línea de código se ejecuta si opcion = 1");
+                break;
 
-        	default:
-           System.out.println("El valor ingresado en la variable opcion es diferente" + "a todos los casos analizados por el switch");
-    	}
-}    
+            case 2:
+                System.out.println("Esta línea de código se ejecuta si opcion = 2");
+                break;
+
+            default:
+                System.out.println("El valor ingresado en la variable opcion es diferente" + "a todos los casos analizados por el switch");
+        }
+    }
 }
